@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Mayank Weather Reports</title>
+        <link rel="icon" href="/images/Weather.ico">
+
+		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<link rel="stylesheet" href="style.css">
+		
+		
+		
+
+	</head>
+	
+
+	<body>
+		
+		<div class="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="index.html" class="branding">
+						<img src="images/logo.png" alt="" class="logo">
+						<div class="logo-type">
+							<h1 class="site-title">Mayank Weather Reports</h1>
+							<small class="site-description">We give you results with full accuracy </small>
+						</div>
+					</a>
+
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div> 
+
+					<div class="mobile-navigation"></div>
+
+				</div>
+			</div> 
+
+			<div class="hero" data-bg-image="images/bg.png">
+				<div class="container">
+					<form id="input"  class="find-location">
+						<input type="text" id="city" placeholder="Find your location...">
+						<input type="submit" value="Find">
+					</form>
+
+				</div>
+			</div>
+
+		
+
+			<div class="forecast-table">
+				<div class="container">
+					<div class="forecast-container">
+						<div class="today forecast">
+							<div class="forecast-header">
+								
+								<div align="center" style="margin-right: 10px;"; class="day" id="day">Monday</div>
+								<div align="center" class="date" > 
+								 <span id="date">6</span> 
+								 <span style="margin-left: -20px;"; id="month">September</span> </div>
+							</div> 
+							<div align="center" class="forecast-content">
+								<div align="center" style="margin-top: -10px;"; class="location" id="cityName">Indore</div>
+								<div class="degree">
+									<div align="center" class="num" id="temp">23<sup>o</sup>C</div>
+									<!-- <div id="wind"> wind</div> -->
+									<div class="forecast-icon">
+										<img src="https://openweathermap.org/img/wn/02n@2x.png" alt="" width=90>
+									</div>	
+
+								</div>
+								<span><img src="images/icon-umberella.png" alt="">20%</span>
+								<span><img src="images/icon-wind.png" alt="">18km/h</span>
+								<span><img src="images/icon-compass.png" alt="">East</span>
+							</div>
+						</div>
+						
+					</div>
+				</div><br><br><br>
+
+			</div> 
+			<main class="main-content">
+			
+			</main> 
+
+			
+            
+			<footer class="site-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="subscribe-form">
+								<input type="text" placeholder="Enter your email to subscribe...">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="social-links">
+								<a href="https://www.instagram.com/mayank.runija18/"><i class="fa fa-instagram"></i></a>
+								<a href="mailto:mickeyruni18@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a href="https://github.com/MayankRunija"><i class="fa fa-github"></i></a>
+								<a href="https://www.linkedin.com/in/mayank-runija-444111205"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div >
+
+					<p id="foot" class="colophon">Copyright <a href="mayankrunija.github.io">Mayank Runija </a>. Designed by Mickey18. All rights reserved</p>
+				</div>
+			</footer> 
+		</div>
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script src="index.js"></script>
+		
+		
+	</body>
+	</html>
+
+
