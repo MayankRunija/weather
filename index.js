@@ -28,10 +28,10 @@ document.getElementById("date").innerHTML = date;
 
 
 Date.prototype.getCurrentTime = function(){
-  return ((this.getHours() < 10)?"0":"") + ((this.getHours()>12)?(this.getHours()-12):this.getHours()) +":"+ ((this.getMinutes() < 10)?"0":"") + this.getMinutes() +":"+ ((this.getHours()>12)?(' PM'):' AM');
+  return ((this.getHours() < 10)?"0":"") + ((this.getHours()>12)?(this.getHours()-12):this.getHours()) +":"+ ((this.getMinutes() < 10)?"0":"") + this.getMinutes() + ((this.getHours()>12)?(' PM'):' AM');
   };
   
-  var today = new Date(); //date object
+  var today = new Date();
   var current_time = today.getCurrentTime();
   document.getElementById("time").innerHTML=current_time;
 
