@@ -27,6 +27,5 @@ By building a project from scratch, I was able to gain a deeper understanding of
 that make up a web app and how they interact with each other. I look forward to continuing to improve and
 develop my web development skills, and to building more projects in the future.
 
-Github Repo link: https://lnkd.in/geKpUPMD
-Weather Website Iink: https://lnkd.in/gDE8ThKB
-#development #experience #travel #project #webdevelopment #javascript #html #github
+Github Repo link: https://github.com/MayankRunija/weather
+Weather Website Iink: https://mayankrunij.github.io
